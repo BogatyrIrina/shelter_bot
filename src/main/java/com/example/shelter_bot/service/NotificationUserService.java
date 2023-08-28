@@ -13,7 +13,6 @@ public class NotificationUserService {
     this.notificationUserRepository = notificationUserRepository;
   }
   public void save(NotificationUser notificationUser){
-
     notificationUserRepository.save(notificationUser);
   }
 
